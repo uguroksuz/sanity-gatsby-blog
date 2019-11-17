@@ -15,7 +15,7 @@ module.exports = {
       resolve: 'gatsby-source-sanity',
       options: {
         ...clientConfig.sanity,
-        token: process.env.SANITY_READ_TOKEN,
+        token: 'skMpfadK1zVx3GvPSY6drIqQU30JnmxjpLSLLTpGp7YN2Aj9JlMmElqrDfQtL4cBqM870oaDbYZbN5AFghXD9q2vkcj2wdwVd2H1RAD4glG7Tqtn4cXrdoBV230jFFsjshieJ7NGIRGxs0laj2QTR2YQiJsrgG62DxTPuG2hoWm2KBPhjLZy',
         watchMode: !isProd,
         overlayDrafts: !isProd
       }
